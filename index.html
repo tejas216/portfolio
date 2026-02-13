@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!--nav-->
+<nav class="navbar">
+  <a href="#home">Home</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+
+  <!-- HEADER SECTION -->
+ <header class="header" id="home">
+    <h1>Tejas BA</h1>
+    <p><b>USN:</b>1VA23CD110</p>
+    <p><b>Contact:</b> tejas1va23cd110@gmail.com | +91-9042101791</p>
+  </header>
+
+  <!-- EDUCATION SECTION -->
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Bachelor of Engineering</h3>
+      <p>Sai Vidya Institution of Technology</p>
+      <p>Year: 2023 - 2027</p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+<section class="section" id="skills">
+  <h2>Skills</h2>
+  <div class="skills-box">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">basic JavaScript</span>
+    <span class="skill">Python</span>
+    <span class="skill">SQL</span>
+  </div>
+</section>
+
+
+  <!-- PROJECTS SECTION -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+
+    <!-- Admin Login Button -->
+    <button id="adminBtn">Admin Login</button>
+
+    <!-- Admin Panel (Hidden by default) -->
+    <div id="adminPanel" class="admin-panel">
+      <h3>Admin Panel</h3>
+
+      <input type="text" id="projectName" placeholder="Project Name" />
+      <textarea id="projectDesc" placeholder="Project Description"></textarea>
+
+      <button id="addProjectBtn">+ Add Project</button>
+    </div>
+
+    <!-- Projects Display -->
+    <div id="projectList" class="project-list"></div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p class="email-note">
+      If you find my portfolio interesting, feel free to email me at:
+      <b>yourmail@gmail.com</b>
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

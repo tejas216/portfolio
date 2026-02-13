@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #a89f9f;
+}
+
+/* Header */
+.header {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Sections */
+.section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+/* Education Card */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Admin Button */
+#adminBtn {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#adminBtn:hover {
+  background: #444;
+}
+
+/* Admin Panel */
+.admin-panel {
+  display: none;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.admin-panel input,
+.admin-panel textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.admin-panel button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-panel button:hover {
+  background: #0056b3;
+}
+
+/* Projects Display */
+.project-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Delete Button */
+.project-card button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.project-card button:hover {
+  background: darkred;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: darkgreen;
+}
+
+.email-note {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.skills-box {
+  margin-top: 15px;
+}
+
+.skill {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.navbar {
+  background: black;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
